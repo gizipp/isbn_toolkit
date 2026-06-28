@@ -1,7 +1,7 @@
 # isbn-toolkit
 
 [![npm version](https://badge.fury.io/js/isbn-toolkit.svg)](https://www.npmjs.com/package/isbn-toolkit)
-[![CI](https://github.com/gizipp/isbn-toolkit/actions/workflows/ci.yml/badge.svg)](https://github.com/gizipp/isbn-toolkit/actions/workflows/ci.yml)
+[![CI](https://github.com/gizipp/isbn_toolkit/actions/workflows/ci.yml/badge.svg)](https://github.com/gizipp/isbn_toolkit/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 All-in-one ISBN toolkit for JavaScript and TypeScript. Validate, convert, and lookup book metadata.
@@ -107,15 +107,15 @@ import type { BookMetadata, LookupSource } from "isbn-toolkit";
 ## Development
 
 ```bash
-git clone https://github.com/gizipp/isbn-toolkit.git
-cd isbn-toolkit
+git clone https://github.com/gizipp/isbn_toolkit.git
+cd isbn_toolkit
 npm install
 npm test
 ```
 
 ## Related
 
-- [isbn-toolkit-ruby](https://github.com/gizipp/isbn-toolkit-ruby) — Ruby version
+- [isbn-toolkit-ruby](https://github.com/gizipp/isbn-toolkit-ruby) — Ruby version (RubyGems)
 
 ## License
 
