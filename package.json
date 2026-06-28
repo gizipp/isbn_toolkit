@@ -1,0 +1,53 @@
+{
+  "name": "isbn-toolkit",
+  "version": "0.1.0",
+  "description": "All-in-one ISBN toolkit. Validate, convert, and lookup book metadata.",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": ["dist", "README.md", "LICENSE"],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts --clean",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "isbn",
+    "isbn-10",
+    "isbn-13",
+    "ean-13",
+    "book",
+    "metadata",
+    "validation",
+    "converter",
+    "open-library",
+    "google-books"
+  ],
+  "author": "Gilang R. Aprianto <gilang@gizipp.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gizipp/isbn-toolkit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gizipp/isbn-toolkit/issues"
+  },
+  "homepage": "https://github.com/gizipp/isbn-toolkit",
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.3.0",
+    "vitest": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
