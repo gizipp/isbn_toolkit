@@ -116,6 +116,7 @@ npm test
 ## Related
 
 - [isbn-toolkit-ruby](https://github.com/gizipp/isbn-toolkit-ruby) — Ruby version (RubyGems)
+- [isbn-toolkit-php](https://github.com/gizipp/isbn-toolkit-php) — PHP version (Composer)
 
 ## License
 
